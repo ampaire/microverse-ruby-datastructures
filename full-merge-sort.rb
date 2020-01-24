@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def full_merge_sort(array)
   arr = divide_merge_sort(array)
   sorted_array = []

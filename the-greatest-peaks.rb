@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def greatest_peaks(map)
   visited = map.map(&:dup)
 
@@ -81,8 +83,8 @@ end
 
 p greatest_peaks(
   [
-    [9, 8, 5], 
-    [5, 6, 3], 
+    [9, 8, 5],
+    [5, 6, 3],
     [8, 4, 1]
   ]
 )
@@ -90,8 +92,8 @@ p greatest_peaks(
 
 p greatest_peaks(
   [
-    [8, 12], 
+    [8, 12],
     [9, 3]
   ]
 )
-# => [1, 
+# => [1,

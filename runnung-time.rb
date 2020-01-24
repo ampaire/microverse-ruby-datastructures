@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def running_time(array)
   rt_sort_itself(array, 0)
 end
